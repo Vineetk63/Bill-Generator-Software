@@ -5,4 +5,7 @@ mydb=mysql.connector.connect(
     password="Vin#@0786",
 )
 c=mydb.cursor()
+
 c.execute("CREATE DATABASE shop")
+
+--vineet
