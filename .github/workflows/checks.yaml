@@ -2,8 +2,9 @@ name:Example-conditional
 on: [push]
 jobs:
   hello:
-  if:github.repository == 'vineet'
+  if:github.repository == 'Vineetk63/Bill-Generator-Software'
   runs-on: ubuntu-latest
   steps:
     name: "hello I am checking"
     run: echo "repository is $github.repository"
+
