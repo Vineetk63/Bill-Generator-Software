@@ -1,0 +1,9 @@
+name:Example-conditional
+on: [push]
+jobs:
+  hello:
+  if:github.repository == 'vineet'
+  runs-on: ubuntu-latest
+  steps:
+    name: "hello I am checking"
+    run: echo "repository is $github.repository"
